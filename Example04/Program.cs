@@ -6,12 +6,8 @@ while (index <= user_number)
     if (index % 2 == 0)
     { 
         Console.Write(index + ", ");
-        index++;
     }
-    else
-    {
-        index++;
-    }
+    index++;
 
 }
 
