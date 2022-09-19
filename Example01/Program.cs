@@ -1,6 +1,6 @@
-﻿Console.Write("Нпиши первое число: ");
+﻿Console.Write("Нaпиши первое число: ");
 int user_number1 = int.Parse(Console.ReadLine());
-Console.Write("Нпиши второе число: ");
+Console.Write("Нaпиши второе число: ");
 int user_number2 = int.Parse(Console.ReadLine());
 if (user_number1 > user_number2)
 {
