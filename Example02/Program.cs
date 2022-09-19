@@ -1,0 +1,10 @@
+﻿Console.Write("Нпиши первое число: ");
+int user_number1 = int.Parse(Console.ReadLine());
+Console.Write("Нпиши второе число: ");
+int user_number2 = int.Parse(Console.ReadLine());
+Console.Write("Нпиши Третье число: ");
+int user_number3 = int.Parse(Console.ReadLine());
+int Max = user_number1;
+if (user_number2 > Max) Max = user_number2;
+if (user_number3 > Max) Max = user_number3;
+Console.Write("Max = " + Max);
