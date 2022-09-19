@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Нпиши первое число: ");
+int user_number1 = int.Parse(Console.ReadLine());
+Console.Write("Нпиши второе число: ");
+int user_number2 = int.Parse(Console.ReadLine());
+if (user_number1 > user_number2)
+{
+    Console.WriteLine("Max = " + user_number1);
+}
+else
+{
+    Console.WriteLine("Max = " + user_number2);
+}
